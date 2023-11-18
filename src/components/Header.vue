@@ -1,4 +1,4 @@
-<script setup></script> 
+<script setup lang="ts"></script> 
 
 <template>
     <header class="container mx-auto flex justify-between items-center bg-blue-400 py-2 px-12">
