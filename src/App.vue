@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import Intro from './sections/Intro.vue'
+// import Intro from './sections/Intro.vue'
+import Header from './sections/Header.vue'
+import Hero from './sections/Hero.vue'
 import About from './sections/About.vue'
 import Gallery from './sections/Gallery.vue'
 import Rooms from './sections/Rooms.vue'
@@ -9,7 +11,14 @@ import Maps from './sections/Maps.vue'
 </script> 
 
 <template>
-  <Intro />
+  <div class="w-full h-screen grid
+  grid-rows-[20vh_1fr]
+  sm:grid-rows-[12vh_1fr]
+  2xl:h-auto 2xl:grid-rows-[8vh_1fr]">
+    <Header />
+
+    <Hero />
+  </div>
 
   <About />
 
