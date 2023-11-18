@@ -2,6 +2,7 @@
 import Intro from './sections/Intro.vue'
 import About from './sections/About.vue'
 import Gallery from './sections/Gallery.vue'
+import Rooms from './sections/Rooms.vue'
 </script> 
 
 <template>
@@ -11,6 +12,7 @@ import Gallery from './sections/Gallery.vue'
 
   <Gallery />
 
+  <Rooms />
   <!-- Footer -->
 </template> 
 
