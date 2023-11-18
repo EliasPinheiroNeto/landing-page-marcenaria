@@ -1,18 +1,14 @@
-<script setup lang="ts"></script> 
+<script setup lang="ts">
+import Intro from './sections/Intro.vue'
+</script> 
 
 <template>
-  <!-- Home Component 100vh -->
-  <!--  Navibar Component -->
-  <!--  Section Component intro -->
+  <Intro />
 
-  <!-- Main Component -->
-  <!--  Section Component -->
-  <!--  Section Component-->
-  <!--  Section Component Sobre -->
-  <!--  Section Component Galeria -->
-  <!--  Section Component Email -->
+  <!-- About Section -->
+  <!-- Gallery Section -->
 
-  <!-- Footer Component -->
+  <!-- Footer -->
 </template> 
 
 <style scoped></style> 
