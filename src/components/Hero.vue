@@ -1,10 +1,10 @@
 <script setup></script> 
 
 <template>
-    <section class="grid grid-cols-5">
+    <section class="container 2xl:mx-auto grid grid-cols-5">
         <div class="col-span-2">
             <img class="block h-full object-cover"
-                 src="https://placehold.co/600x400?text=Imagem"
+                 src="https://placehold.co/400?text=Banner"
                  alt="">
         </div>
 
