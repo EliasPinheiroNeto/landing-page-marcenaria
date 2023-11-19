@@ -2,26 +2,13 @@
 
 <template>
      <div class="bg-blue-400">
-          <section class="container mx-auto grid grid-cols-4 grid-rows-2 gap-4 py-12 px-16">
-               <img class="w-full aspect-square object-cover hover:scale-110 transition-transform"
-                    src="https://placehold.co/400x600?text=Foto"
-                    alt="">
-               <img class="w-full aspect-square object-cover hover:scale-110 transition-transform"
-                    src="https://placehold.co/400x600?text=Foto"
-                    alt="">
-               <img class="w-full aspect-square object-cover hover:scale-110 transition-transform"
-                    src="https://placehold.co/400x600?text=Foto"
-                    alt="">
-               <img class="w-full aspect-square object-cover hover:scale-110 transition-transform"
-                    src="https://placehold.co/400x600?text=Foto"
-                    alt="">
-               <img class="w-full aspect-square object-cover hover:scale-110 transition-transform"
-                    src="https://placehold.co/400x600?text=Foto"
-                    alt="">
-               <img class="w-full aspect-square object-cover hover:scale-110 transition-transform"
-                    src="https://placehold.co/400x600?text=Foto"
-                    alt="">
-               <img class="w-full aspect-square object-cover hover:scale-110 transition-transform"
+          <section class="container mx-auto grid 
+          grid-cols-1 p-4 gap-y-4
+          sm:grid-cols-2 sm:gap-8 sm:py-8
+          lg:grid-cols-4">
+               <img class="w-full aspect-square object-cover transition-transform 
+               sm:hover:scale-110"
+                    v-for="i in 7"
                     src="https://placehold.co/400x600?text=Foto"
                     alt="">
           </section>
