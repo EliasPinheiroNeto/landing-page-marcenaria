@@ -24,7 +24,7 @@ import InputTextarea from '@/components/InputTextarea.vue';
                                placeholder="Digite sua mensagem" />
             </form>
             <div class="my-auto">
-                <h2 class="text-4xl text-white">Fale <br><strong class="text-5xl">Conosco</strong></h2>
+                <h2 class="sm:text-4xl text-white">Fale <br><strong class="sm:text-5xl">Conosco</strong></h2>
             </div>
         </section>
     </div>
