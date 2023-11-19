@@ -30,7 +30,7 @@
                 hidden
                 sm:flex items-center">
                     <a class="text-xl"
-                       href="#">- Fale Conosco</a>
+                       href="#about">- Fale Conosco</a>
                 </div>
             </div>
         </section>

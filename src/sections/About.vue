@@ -3,7 +3,8 @@ const aboutText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alia
 </script> 
 
 <template>
-    <div class="w-full">
+    <div class="w-full"
+         id="about">
         <section class="container grid mx-auto p-8 grid-cols-2">
             <div class="my-auto">
                 <h2 class="text-4xl">Quem Somos?</h2>

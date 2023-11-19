@@ -4,7 +4,8 @@ import InputTextarea from '@/components/InputTextarea.vue';
 </script> 
 
 <template>
-    <div class="w-full bg-blue-500">
+    <div class="w-full bg-blue-500"
+         id="email">
         <section class="container mx-auto py-8
         flex flex-col-reverse 
         md:grid md:grid-cols-5">
