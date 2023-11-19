@@ -4,12 +4,11 @@
     <div class="bg-blue-500">
         <section class="h-full mx-auto
         flex flex-col-reverse
-        sm:grid sm:grid-cols-7
+        sm:grid sm:grid-cols-5
         2xl:container 2xl:mx-auto">
             <div class="
             h-full flex flex-col
-            sm:col-span-3 sm:h-auto sm:flex-grow-0
-            md:col-span-4">
+            sm:col-span-2 sm:h-auto sm:flex-grow-0">
                 <img class="object-cover h-1 flex-grow"
                      src="https://placehold.co/400?text=Banner"
                      alt="">

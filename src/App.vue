@@ -14,7 +14,7 @@ import Maps from './sections/Maps.vue'
   <div class="w-full h-screen grid
   grid-rows-[20vh_1fr]
   sm:grid-rows-[12vh_1fr]
-  2xl:h-auto 2xl:grid-rows-[8vh_1fr]">
+  2xl:h-auto 2xl:grid-rows-[4rem_1fr]">
     <Header />
 
     <Hero />
