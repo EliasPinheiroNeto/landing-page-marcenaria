@@ -13,7 +13,7 @@ const aboutText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alia
             </div>
 
             <div class="relative flex justify-center">
-                <div class="absolute aspect-square border-blue-400
+                <div class="absolute aspect-square border-blue-500
                 -translate-x-2 translate-y-2 border-2 w-full 
                 sm:border-4 sm:-translate-x-4 sm:translate-y-4 sm:w-2/3"></div>
 
