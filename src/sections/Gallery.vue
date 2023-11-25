@@ -4,7 +4,7 @@
      <div class="bg-blue-500"
           id="gallery">
           <section class="container mx-auto grid 
-          grid-cols-1 p-4 gap-y-4
+          grid-cols-2 p-4 gap-4
           sm:grid-cols-2 sm:gap-8 sm:py-8
           md:grid-cols-3
           xl:grid-cols-4">

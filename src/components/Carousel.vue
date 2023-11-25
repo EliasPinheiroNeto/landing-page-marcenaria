@@ -9,9 +9,14 @@ const carousel = reactive({
     slide: 0,
     show: 1
 })
-// Arrumar esse componente carrossel
 
 onMounted(() => {
+    if (innerWidth >= 640) {
+        carousel.show = 2
+    } else {
+        carousel.show = 1
+    }
+
     window.addEventListener("resize", () => {
         if (innerWidth >= 640) {
             carousel.show = 2

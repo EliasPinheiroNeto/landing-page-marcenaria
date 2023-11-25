@@ -5,7 +5,9 @@ const aboutText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alia
 <template>
     <div class="w-full"
          id="about">
-        <section class="container grid mx-auto p-8 grid-cols-2">
+        <section class="container grid mx-auto grid-cols-2
+        p-4
+        sm:p-8">
             <div class="my-auto">
                 <h2 class="text-4xl">Quem Somos?</h2>
                 <p class="mt-8

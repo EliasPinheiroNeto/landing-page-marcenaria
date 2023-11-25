@@ -8,6 +8,7 @@ import Rooms from './sections/Rooms.vue'
 import Footer from './sections/Footer.vue'
 import Email from './sections/Email.vue'
 import Maps from './sections/Maps.vue'
+import ZapButton from './components/ZapButton.vue'
 </script> 
 
 <template>
@@ -31,6 +32,8 @@ import Maps from './sections/Maps.vue'
   <Maps />
 
   <Footer />
+
+  <ZapButton />
 </template> 
 
 <style scoped></style> 

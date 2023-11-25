@@ -21,7 +21,7 @@ const resources = [
 </script> 
 
 <template>
-    <div class="border-orange-50">
+    <div class="">
         <section class="container mx-auto
         p-4 ">
             <h2 class="text-center
